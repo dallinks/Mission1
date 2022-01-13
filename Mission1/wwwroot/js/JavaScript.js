@@ -1,4 +1,6 @@
 ﻿
+//This is the javascript program that collects information from the grade calculator form/
+//and outputs as an alert the grade percentage and letter grade./
 $("#btnSend").click(function () {
     var assignment = $("#assignments").val();
     var groupprojects = $("#groupprojects").val();
@@ -12,7 +14,7 @@ $("#btnSend").click(function () {
     }
     else if (total >= 90) {
         gradeletter = "A-";
-    }
+    }   
     else if (total >= 87) {
         gradeletter = "B+";
     }
